@@ -10,6 +10,10 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
+__pycache__
+
+# migrations folder 
+migrations/
 
 # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
 # in your Git repository. Update and uncomment the following line accordingly.
@@ -19,6 +23,38 @@ media
 # Byte-compiled / optimized / DLL files
 *.py[cod]
 *$py.class
+
+#----2022-08-20-----
+__pycache__/
+
+.Python
+myenv/
+env/
+*.yml
+*.jpg
+*.png
+*.so
+*.a
+
+db.sqlite3 
+.DS_Store 
+  
+.vscode/ 
+.env 
+
+# secret key file 
+secrets.json
+*.json 
+
+# 개발일지 제외 
+devLog.txt 
+#-------------------
+
+# C extensions
+*.so
+*.c
+*.a 
+
 
 # C extensions
 *.so
